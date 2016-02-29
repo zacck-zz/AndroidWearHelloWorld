@@ -7,9 +7,11 @@
     tools:context="com.zacck.androidwearhelloworld.MainActivity"
     tools:deviceIds="wear_square">
 
-    <TextView
-        android:id="@+id/text"
+    <Button
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="@string/hello_square" />
+        android:layout_centerInParent="true"
+        android:text="New Button"
+        android:id="@+id/button"
+        android:onClick="sayHI" />
 </LinearLayout>
